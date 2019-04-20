@@ -4,6 +4,8 @@
 
 ### Usage
 
+In order to allow the bot to connect to Discord, you will need to give it a token.  Copy the `config.default.hjson` file to `config.hjson` and populate it with a token for a bot you own.
+
 When first run, you will need to setup the bot to create the required roles to assign people, you can do this with the `createRoleColors` function, e.g. by running the following when the bot is ready:
 
 ```javascript
